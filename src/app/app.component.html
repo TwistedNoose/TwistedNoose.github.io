@@ -1,0 +1,211 @@
+<div class="container-fluid">
+    <div class="headerContainer">
+
+        <div class="row header">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-exSm-logo">
+                <div class="logoSection">
+                    <div class="logoContainer">
+                        <img src="Ghx5tLogo.png" class="logo">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-exSm-name">
+                 <div class="nameContainer">
+                <h3 class="h3 heading">
+                    Kyle Wrigley
+                </h3>
+                <h5 class="h6 heading">
+                    #TheGhx5t
+                </h5>
+            </div>
+                
+            </div>
+
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1 col-exSm">
+                
+            </div>
+
+            <div class="col-xl-6 col-lg-7 col-md-7 col-sm-7 col-exSm-nav">
+                <div class="navContainer">
+                    <div class="navItemsContainer">
+                        <ul class="navItems">
+                           
+                                <li class="navItem h6 ">
+                                     
+                                    <a [ngClass]=" {'active' : activeSection === 'about'}" 
+                                    (click)="scrollTo('about')" 
+                                    class="aItem h6">
+                                        About,
+                                    </a>
+                                         
+
+                                     
+
+                                </li>
+                           
+
+                            
+                                <li class="navItem h6" >
+                                    <a [ngClass]=" {'active' : activeSection === 'projects'}" 
+                                    (click)="scrollTo('projects')" class="aItem h6">
+                                    Projects,</a>
+                                    
+                                </li>
+                            
+
+
+                            <li class="navItem h6">
+                                 <a [ngClass]=" {'active' : activeSection ==='myGoal'}"  
+                                 (click)="scrollTo('myGoal')" 
+                                 class="aItem h6">
+                                    My goal,</a>
+
+                                
+                                
+                            </li>
+                            <li class="navItem ">
+                                 <a [ngClass]=" {'active' : activeSection ==='testimonial'}" 
+                                 (click)="scrollTo('testimonial')" class="aItem h6">
+                                    Testimonial</a>
+                                
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="ctaContainer">
+
+                        <li>
+                            <a  
+                                 (click)="scrollTo('footer')" class="cta h6 active" >
+                                    Let's talk</a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                
+            </div>
+            <div class="navContainerSm">
+                    <div class="navItemsContainer">
+                        <ul class="navItems">
+                           
+                                <li class="navItem h6 ">
+                                     
+                                    <a [ngClass]=" {'active' : activeSection === 'about'}" 
+                                    (click)="scrollTo('about')" 
+                                    class="aItem h6">
+                                        About
+                                    </a>
+                                         
+
+                                     
+
+                                </li>
+                           
+
+                            
+                                <li class="navItem h6" >
+                                    <a [ngClass]=" {'active' : activeSection === 'projects'}" 
+                                    (click)="scrollTo('projects')" class="aItem h6">
+                                    Projects</a>
+                                    
+                                </li>
+                            
+
+
+                            <li class="navItem h6">
+                                 <a [ngClass]=" {'active' : activeSection ==='myGoal'}"  
+                                 (click)="scrollTo('myGoal')" 
+                                 class="aItem h6">
+                                    My goal</a>
+
+                                
+                                
+                            </li>
+                            <li class="navItem ">
+                                 <a [ngClass]=" {'active' : activeSection ==='testimonial'}" 
+                                 (click)="scrollTo('testimonial')" class="aItem h6">
+                                    Testimonial</a>
+                                
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+
+       
+    </div>
+
+
+    <div class="mainSection">
+        <router-outlet></router-outlet>  
+    </div>
+
+    <footer id="footer"  [ngStyle]="{ 'background-image': 'url(/heroBgImage.png)' }">
+
+        <div class="footerContainer" >
+        
+            
+
+            <div class="emailContainer">
+
+                <h3 class="h3">Let’s build something unforgettable:</h3>
+
+                <div class="contactContainer">
+                    <a href="mailto:TheGhx5t@proton.me" class="h3 email">TheGhx5t&#64;proton.me</a>
+
+                    <div class="socialContainer">
+
+                        <h5 class="h5">
+                            Social
+                        </h5>
+
+                        <ul class="socilItems">
+                            <li class="socialItem">
+                                <a href="https://www.artstation.com/theghx5t" target="_blank">
+                                    <h6 class="h6">
+                                        Artstation
+                                    </h6>
+                                </a>
+                            </li>
+
+                            <li class="socialItem">
+                                <a href="https://www.instagram.com/theghx5t/" target="_blank">
+                                    <h6 class="h6">
+                                        Instagram
+                                    </h6>
+                                </a>
+                            </li>
+
+
+                            <li class="socialItem">
+                                <a href="https://www.linkedin.com/in/kyle-wrigley-94a995348/" target="_blank">
+                                    <h6 class="h6">
+                                        LinkedIn
+                                    </h6>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+                
+                
+
+            </div>
+            
+
+        </div> 
+
+    </footer>
+
+   
+    
+
+</div>
