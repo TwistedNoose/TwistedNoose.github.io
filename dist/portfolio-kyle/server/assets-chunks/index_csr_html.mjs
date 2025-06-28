@@ -5,7 +5,7 @@ export default `<!doctype html>
   <title>Kyle Wrigley - 3D Environment and Prop Artist </title>
   <base href="/">
   
-
+  <meta name="theme-color" content="#010101">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Portfolio of Kyle Wrigley: 3D Environment and Prop Artist. Specializing in game-ready assets, immersive environments, and detailed props for games and virtual experiences – both stylized and realistic.">
 
