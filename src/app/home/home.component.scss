@@ -1105,6 +1105,25 @@ body {
             // margin-top: 48px;
             padding: 64px 32px 0px 32px;
 
+                  .scrollIcon{
+                    display: none;
+                    align-items: center;
+                    position: absolute;
+                    top: -52px;
+                    left: 32px;
+                    gap: 4px;
+
+                    path {
+                        stroke-dasharray: 80;
+                        stroke-dashoffset: 80;
+                        animation: draw 4s ease-out infinite;
+                    }
+
+                    .tagline{
+                        color: white;
+                    }
+                }
+
 
             .projectsHeadignContainer{
 
