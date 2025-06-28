@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
-  background-color: #010101;
+  background: #010101;
+  padding-top: env(safe-area-inset-top);
 }
 
 // html, body {
@@ -25,7 +26,8 @@ html {
 
 body {
   overflow: hidden;
-  background-color: #010101;
+  background: #010101;
+  padding-top: env(safe-area-inset-top);
   
 } 
 
@@ -538,7 +540,7 @@ body {
                             color: white;
 
                             &:hover {
-                                background-position: bottom; // slides the color upward
+                                background-position: unset; // slides the color upward
                                 
                             }
 
@@ -1445,7 +1447,7 @@ body {
                                             cursor: pointer;
 
                                             &:hover {
-                                                background-position: bottom; // slides the color upward
+                                                background-position: unset; // slides the color upward
                                                 
                                             }
                                             

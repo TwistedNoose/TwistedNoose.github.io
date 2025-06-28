@@ -20,7 +20,8 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #010101;
+  background: #010101;
+  padding-top: env(safe-area-inset-top);
 }
 
 
@@ -49,7 +50,8 @@ html {
 
 body {
   overflow: hidden;
-  background-color: #010101;
+  background: #010101;
+  padding-top: env(safe-area-inset-top);
 }
 
 // start: typography
