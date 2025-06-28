@@ -1176,13 +1176,13 @@ body {
                             background: linear-gradient(to top, rgba(182, 182, 182, 0.4) 50%, transparent 50%);
                             background-size: 100% 200%;
                             background-position: top; // hides the background initially
-                            transition: background-position 0.3s ease, color 0.3s ease;
+                            transition: unset;
                             cursor: pointer;
                             position: relative;
                             z-index: 100;
 
                             &:hover {
-                                background-position: bottom; // slides the color upward
+                                background-position: unset; // slides the color upward
                                 color: #F5F5F5;
                                 z-index: 100;
                             }
@@ -1569,7 +1569,7 @@ body {
 
             .navContainer{
                 
-                padding: 32px 32px 32px 32px;
+                padding: 16px 32px 16px 32px;
                 position: fixed;
                 left: 0;
                 width: 100%;
@@ -1585,6 +1585,12 @@ body {
 
                         .h4{
                             color: #D9D9D9;
+                             -webkit-line-clamp: 1; 
+                            line-clamp: 1;           
+                            -webkit-box-orient: vertical;     
+                            overflow: hidden;                 
+                            text-overflow: ellipsis; 
+                            display: -webkit-box;
                         }
                     }
 
@@ -1607,7 +1613,7 @@ body {
             .heroImageContainer{
 
                 width: 100%;
-                padding-top: 90px;
+                padding-top: 58px;
 
                 
 
