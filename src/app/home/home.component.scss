@@ -986,6 +986,8 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-color: #010101;
+        margin-top: -177px;
+
 
         
 
@@ -996,8 +998,9 @@ body {
             background-repeat: no-repeat;
             display: flex;
             justify-content: center;
-            height: 100vh;
-            overflow: auto;
+            height: unset;
+            overflow: unset;
+
             
             
         
@@ -1105,6 +1108,7 @@ body {
 
                     .h2{
                         color: #F5F5F5;
+                        padding-bottom: 58px;
                     }
                 }
 
@@ -1120,9 +1124,9 @@ body {
                     
                     padding: 10px 0px 0px 0px;
                     border-top: 1px solid #666666;
-                    margin-top: 160px;
-                    position: sticky;
-                    top: 160px;
+                    margin-top: 80px;
+                    position: unset;
+                    top: unset;
                     background-color: #010101;
                     overflow: hidden;
 
@@ -2489,6 +2493,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-color: #010101;
+        
 
         
 
@@ -2501,6 +2506,7 @@ body {
             justify-content: center;
             height: 100vh;
             overflow: auto;
+            
             
             
         
@@ -3223,6 +3229,8 @@ body {
 
 
 }
+
+
 
 @media (min-width: 768px) and (max-width: 819.98px) and (orientation: portrait){
 
@@ -3971,6 +3979,8 @@ body {
 
 
 }
+
+
 
 
 @media (min-width: 576px) and (max-width: 767.98px){
