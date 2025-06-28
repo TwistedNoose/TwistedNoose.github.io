@@ -1275,6 +1275,18 @@ body {
                                 text-decoration: none;
                                 min-height: 40px;
                                 color: white;
+                                background: unset;
+                                background-size: 100% 200%;
+                                background-position: top; // hides the background initially
+                                transition: background-position 0.3s ease, color 0.3s ease;
+                                cursor: pointer;
+                                
+                                
+
+                                &:hover {
+                                    background-position: unset; // slides the color upward
+                                    
+                                }
 
                                 
 
@@ -1440,10 +1452,10 @@ body {
                                             display: flex;
                                             max-width: fit-content;
                                             
-                                            background: linear-gradient(to top, rgba(182, 182, 182, 0) 50%, transparent 50%);
+                                            background: unset;
                                             background-size: 100% 200%;
-                                            background-position: top; // hides the background initially
-                                            transition: background-position 0.3s ease, color 0.3s ease;
+                                            background-position: unset; // hides the background initially
+                                            transition: background-position unset;
                                             cursor: pointer;
 
                                             &:hover {
