@@ -5001,7 +5001,7 @@ body {
                                 justify-content: space-between;
                                 padding-bottom: 6px;
                                 border-bottom: 1px solid #D9D9D9;
-                                background: linear-gradient(to top, rgba(182, 182, 182, 0.4) 50%, transparent 50%);
+                                background: unset;
                                 background-size: 100% 200%;
                                 background-position: top; // hides the background initially
                                 transition: background-position 0.3s ease, color 0.3s ease;
@@ -5010,7 +5010,7 @@ body {
                                 z-index: 100;
 
                                 &:hover {
-                                    background-position: bottom; // slides the color upward
+                                    background-position: unset; // slides the color upward
                                     color: #F5F5F5;
                                     z-index: 100;
                                 }
