@@ -1581,6 +1581,7 @@ body {
                     display: flex;
                     justify-content: space-between;
                     width: 100%;
+                    flex-wrap: nowrap;
 
                     .heading{
 
@@ -1811,6 +1812,12 @@ body {
                                 color: #F5F5F5;
                                 font-size: 1.625rem;
                                 line-height: 1.875rem;
+                                 -webkit-line-clamp: 1; 
+                                line-clamp: 1;           
+                                -webkit-box-orient: vertical;     
+                                overflow: hidden;                 
+                                text-overflow: ellipsis; 
+                                display: -webkit-box;
 
                             }
                         }
@@ -3311,6 +3318,12 @@ body {
                                 color: #F5F5F5;
                                 font-size: 1.625rem;
                                 line-height: 1.875rem;
+                                -webkit-line-clamp: 1; 
+                                line-clamp: 1;           
+                                -webkit-box-orient: vertical;     
+                                overflow: hidden;                 
+                                text-overflow: ellipsis; 
+                                display: -webkit-box;
 
                             }
                         }
@@ -5422,6 +5435,7 @@ body {
 
                 .nav{
                     display: flex;
+                    flex-wrap: nowrap;
                     justify-content: space-between;
                     width: 100%;
 
@@ -5431,6 +5445,12 @@ body {
                             color: #F5F5F5;
                             font-size: 1.125rem;
                             line-height: 1.5rem;
+                            -webkit-line-clamp: 1; 
+                            line-clamp: 1;           
+                            -webkit-box-orient: vertical;     
+                            overflow: hidden;                 
+                            text-overflow: ellipsis; 
+                            display: -webkit-box;
                         }
                     }
 
